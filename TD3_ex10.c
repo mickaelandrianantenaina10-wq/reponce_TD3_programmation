@@ -53,7 +53,7 @@ int main()
 	for (i=0;i<compteur;i++)
 	{
 		
-		if (((lettre [i]!='a' && lettre[i] !='e' && lettre[i]!='i' && lettre[i]!='o' && lettre[i]!='u' && lettre[i] !='y')&&(lettre [i+1]=='a' || lettre[i+1] =='e'||lettre[i+1]=='i' || lettre[i+1]=='o'||lettre[i+1]=='u' || lettre[i+1] =='y')))
+		if (((lettre [i]!='a' && lettre[i] !='e' && lettre[i]!='i' && lettre[i]!='o' && lettre[i]!='u' && lettre[i] !='y')&&(lettre [i+1]=='a' || lettre[i+1] =='e'||lettre[i+1]=='i' || lettre[i+1]=='o'||lettre[i+1]=='u' || lettre[i+1] =='y')&&(lettre[i]!=' ')))
 		{
 			conservateur[a]=lettre[i];
 			conservateur[a+1]='I';
