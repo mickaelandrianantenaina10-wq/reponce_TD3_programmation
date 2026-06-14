@@ -1,0 +1,3 @@
+CARRE MAGIQUE TD3 PROGRAMMATION
+make :pour compiler les code 
+make clean : pour effacer le .exe mais pas le source

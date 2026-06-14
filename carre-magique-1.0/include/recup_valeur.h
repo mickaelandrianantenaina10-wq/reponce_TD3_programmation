@@ -1,0 +1,1 @@
+void prendreint(int* pnombre);
